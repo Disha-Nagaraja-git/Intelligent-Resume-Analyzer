@@ -1,0 +1,42 @@
+# Intelligent Resume Analyzer
+
+## Project Overview
+The Intelligent Resume Analyzer is a Python-based application that automates resume screening by extracting candidate details from resumes, matching them with job requirements, and generating hiring recommendations.
+
+## Features
+- Resume text extraction (TXT/PDF/DOCX supported)
+- Email and skills extraction
+- Resume matching with job description
+- Match score calculation
+- Automated hiring recommendation
+- JSON report generation
+
+## Technologies Used
+- Python
+- Regular Expressions (Regex)
+- Scikit-learn (Cosine Similarity)
+- PyPDF2 / python-docx (optional file reading)
+- JSON file handling
+
+## How to Run
+1. Install required libraries:
+
+2. Keep these files in the same folder:
+- resume_analyzer.py
+- resume.txt
+- job_description.txt
+3. Run:
+
+
+## Output
+The system generates:
+- Candidate email and skills
+- Match score percentage
+- Hiring recommendation
+- Report saved as `report.json`
+
+## Purpose
+This project demonstrates how automation and NLP techniques can assist recruitment by quickly analyzing resumes and matching them with job requirements.
+
+## Author
+Disha Nagaraja
